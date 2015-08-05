@@ -39,7 +39,6 @@ class Flush_Network_Permalink {
 			'id'    => 'dk_flush_network_permalink',
 			'title' => __( 'Flush network permalink', 'fnp' ),
 			'href'  => $current_url,
-			'meta'  => array( 'class' => 'my-toolbar-page' ),
 		);
 		$wp_admin_bar->add_node( $args );
 	}
@@ -63,7 +62,6 @@ class Flush_Network_Permalink {
 			}
 		}
 	}
-
 }
 
 Flush_Network_Permalink::init();
